@@ -1,9 +1,15 @@
+"""
+3. Crear una función que se llame ordenarCaracteres que reciba una cadena de caracteres como parámetro  
+y su responsabilidad es ordenarlos caracteres de manera ascendente dentro de la cadena. 
+Ejemplo si le pasamos "algoritmo" la deja como "agilmoort"
+"""
+
 def ordenarCaracteres(cadena_caracteres:str)->str:
     """Ordena una cadena de caracteres de manera ascendente dentro de la cadena
     Args:
         cadena_caracteres (str): La cadena de caracteres que quiere ordenar
     Returns:
-        str: La cadena de caracteres ordenada
+        str: La cadena de caracteres ordenada de manera ascendente
     """
     flag_swap = True
     contador = 1
